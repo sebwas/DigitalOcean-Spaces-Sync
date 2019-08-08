@@ -282,7 +282,7 @@
     </p>
 
     <p>
-      <a href="https://github.com/keeross/DigitalOcean-Spaces-Sync/" target="_blank">GitHub</a>
+      <a href="https://github.com/sebwas/DigitalOcean-Spaces-Sync/" target="_blank">GitHub</a>
     </p>
 
   </div>
