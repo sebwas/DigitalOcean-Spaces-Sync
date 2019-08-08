@@ -172,7 +172,7 @@ final class Plugin {
 	}
 
 	public function addAttachment ($postId) {
-		if (wp_attachment_is_image($postId) === false) {
+		if (wp_attachment_is_image($postId) === false || get_post_mime_type($postId) === 'image/svg+xml') {
 			$file = get_attached_file($postId);
 
 			$this->uploadFile($file);
