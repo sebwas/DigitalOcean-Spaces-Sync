@@ -1,7 +1,7 @@
 {
-  "name": "keeross/DO-Spaces-Wordpress-Sync",
+  "name": "sebwas/do-wp-sync",
   "type": "plugin",
-  "description": "This WordPress plugin syncs your media library with DigitalOcean Spaces Container.",
+  "description": "This WordPress plugin syncs your media library with a DigitalOcean Spaces Container.",
   "keywords": [
     "aws",
     "s3",
@@ -10,17 +10,22 @@
     "storage",
     "cloudfiles"
   ],
-  "homepage": "https://github.com/keeross/DO-Spaces-Wordpress-Sync",
+  "homepage": "https://github.com/sebwas/DO-Spaces-Wordpress-Sync",
   "license": "MIT",
   "authors": [
     {
-      "name": "keeross",
-      "email": "keeross@dolsen.co",
-      "homepage": "https://github.com/keeross"
+      "name": "Sebastian Wasser",
+      "email": "sebastian.wasser@gmail.com",
+      "homepage": "https://github.com/sebwas"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Dos\\": "src/Dos/"
+    }
+  },
   "require": {
-    "php": ">=5.3.3",
+    "php": ">=7",
     "katzgrau/klogger": "dev-master",
     "league/flysystem-aws-s3-v3": "^1.0"
   }

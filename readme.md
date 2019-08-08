@@ -1,3 +1,5 @@
+Original made by [@keeross](https://github.com/keeross/DigitalOcean-Spaces-Sync)
+
 ## DigitalOcean Spaces Sync
 This WordPress plugin syncs your media library with [DigitalOcean Spaces](https://goo.gl/SX2UwH) Container.
 
